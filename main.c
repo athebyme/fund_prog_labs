@@ -18,12 +18,12 @@ int lab1(){
 int lab2(){
     printf("\n-----------------\n\n\nLab 2\n");
     float a, z1, z2;
-    printf("Введите вещественное число: ");
+    printf("Enter float num: ");
     scanf("%f", &a);
     z1 = cosf(a) + sinf(a) + cosf(3*a) + sinf(3*a);
-    printf("res z1: %f", z1);
+    printf("res 1: %f", z1);
     z2 = 2 * sqrtf(2) * cosf(a) * sinf(M_PI/4 + 2 * a);
-    printf("\nres z2: %f", z2);
+    printf("\nres 2: %f", z2);
     return 0;
 }
 int main() {
