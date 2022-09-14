@@ -3,6 +3,7 @@
 #include <math.h>
 
 int lab1(){
+    system("chcp 1251");
     printf("\n-----------------\n");
     printf("\n\nЛабораторная работа 1\n");
     int _int;
@@ -17,10 +18,11 @@ int lab1(){
 }
 
 int lab2(){
+    system("chcp 1251");
     printf("\n-----------------\n");
-    printf("\n\nЛабораторная работа 2\n");
+    printf("\n\nLab 2\n");
     float a;
-    printf("Введите число: ");
+    printf("Введите вещественное число: ");
     scanf("%f", &a);
     float z1, z2;
     z1 = cosf(a) + sinf(a) + cosf(3*a) + sinf(3*a);
@@ -30,7 +32,6 @@ int lab2(){
     return 0;
 }
 int main() {
-    system("chcp 1251");
     lab1();
     lab2();
 }
