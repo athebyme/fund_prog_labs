@@ -1,6 +1,3 @@
-//
-// Created by Anton on 14.09.2022.
-//
 
 #ifndef LABS_MYLIB_H
 #define LABS_MYLIB_H
