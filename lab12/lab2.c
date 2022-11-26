@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 const int C_ITERS = 10;
-const int C_ITERS_PI = 20;
 
 long int calculate_fact(int n){
     long int res = 1;
@@ -16,14 +15,15 @@ float calculate_degree(float x, int degree){
 }
 
 float cosine(float x){
+    x = fmod(M_PI/180 * x, M_PI*2);
     float r_cos = 1;
-    int isPlus = 0; // если 0 то +, если 1 то -
+    int isPlus = 1; // если 0 то +, если 1 то -
     for(int i = 2; i <= C_ITERS; i+=2) {
         if (isPlus == 0) {
-            r_cos +=  calculate_degree(x, i) / (float) calculate_fact(i);
+            r_cos +=  pow(x, i) / (float) calculate_fact(i);
             isPlus = 1;
         } else {
-            r_cos -= calculate_degree(x, i) / (float) calculate_fact(i);
+            r_cos -= pow(x, i) / (float) calculate_fact(i);
             isPlus = 0;
         }
     }
@@ -31,9 +31,10 @@ float cosine(float x){
 }
 
 float sine(float x){
+    x = fmod(M_PI/180 * x, M_PI*2);
     float r_sin = x;
     int isPlus = 1; // если 0 то +, если 1 то -
-    for(int i = 2; i <= C_ITERS; i+=2) {
+    for(int i = 3; i <= C_ITERS; i+=2) {
         if (isPlus == 0) {
             r_sin +=  calculate_degree(x, i) / (float) calculate_fact(i);
             isPlus = 1;
@@ -45,17 +46,29 @@ float sine(float x){
     return r_sin;
 }
 
+
+float z1_math(float a){
+    float z =(float) cosf(a) + sinf(a) + cosf(3*a) + sinf(3*a);
+    return z;
+}
+float z2_math(float a){
+    float z = 2 * sqrtf(2) * cosf(a) * sinf(M_PI/4 + 2 * a);
+    return z;
+}
+float own_z1(float a){
+    float z = cosine(a) + sine(a) + cosine(3*a) + sine(3*a);
+    return z;
+}
+
 int lab2(){
     printf("\n-----------------\n\n\nLab 2\n");
     float a, z1, z2, z3;
     printf("Enter real num: ");
     scanf("%f", &a);
-    float rads = M_PI/180 * a;
-    z1 = cosf(a) + sinf(a) + cosf(3*a) + sinf(3*a);
-    printf("res 1: %.3f", z1);
-    z3 = cosine(rads) + sine(rads) + cosine(3*rads) + sine(3*rads);
-    printf("\nown cos/sin res 1: %.3f\n\n", z1);
-    z2 = 2 * sqrtf(2) * cosf(a) * sinf(M_PI/4 + 2 * a);
-    printf("\nres 2: %.3f", z2);
+    printf("sin: %f\ncos: %f\n", sine(a), cosine(a));
+    z1 = z1_math(a);
+    z2 = own_z1(a);
+    z3 = z2_math(a);
+    printf("res_math_1: %f\nres_own cos/sin: %f\nres_math_2: %f", z1,z2,z3);
     return 0;
 }

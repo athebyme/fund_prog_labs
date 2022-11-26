@@ -1,18 +1,7 @@
 #include <stdio.h>
-#include "lab1.h"
-#include "lab2.h"
-#include "test.h"
-#include "abc.h"
-#include "ijwtihw.h"
-int lab2_(){
-    float a;
-    scanf("%f", &a);
-    printf("You enter %.2f value (radion)", a);
-    return 0;
-}
-
+#include "lab56/lab5.h"
+#include "lab56/lab6.h"
 int main() {
-    lab2();
-    //tested();
+    lab6();
     return 0;
 }
