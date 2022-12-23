@@ -16,7 +16,7 @@ typedef struct {
     Point p4;
 } Square;
 
-double square_area(Square s);
-double square_perimeter(Square s);
+double square_area(Square* s);
+double square_perimeter(Square* s);
 int lab11();
 #endif
