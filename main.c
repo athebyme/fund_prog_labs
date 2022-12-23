@@ -1,10 +1,6 @@
-#include <stdio.h>
-#include <locale.h>
-#include <windows.h>
-#include <conio.h>
-#include "lab9_10/lab10.h"
+#include "lab11_12/lab11.h"
 
 int main() {
-    lab10();
+    lab11();
     return 0;
 }
