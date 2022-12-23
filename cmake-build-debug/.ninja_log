@@ -1,9 +1,10 @@
 # ninja log v5
-2	600	6935055759747849	CMakeFiles/untitled.dir/main.c.obj	54cc0f587be06851
-84	200	6935056544419927	untitled.exe	a4a96cf7c1e392fa
+2	88	6935061551597631	CMakeFiles/untitled.dir/main.c.obj	54cc0f587be06851
+10	97	6935061551801067	CMakeFiles/untitled.dir/lab11_12/lab11.c.obj	b058ea4a14717d71
+98	204	6935061552888438	untitled.exe	d1043d2b7ded524e
 30	216	6895942143139002	CMakeFiles/untitled.dir/lab34/lab4.c.obj	d3bc673e6f3b858b
 16	170	6935015145993978	CMakeFiles/untitled.dir/lab1_2/lab2.c.obj	4760604c65f9e345
-1	256	6935060743991026	build.ninja	91dd9f9b06c0f851
+1	256	6935062913515752	build.ninja	91dd9f9b06c0f851
 3	161	6911563745024336	CMakeFiles/untitled.dir/lab56/lab5.c.obj	8e631cf529b4ed71
 73	271	6895942143701557	CMakeFiles/untitled.dir/lab12/lab2.c.obj	1ff7d34e4cb44b1c
 3	197	6895942142967351	CMakeFiles/untitled.dir/lab12/lab1.c.obj	54652dc86d1b1a8
@@ -19,11 +20,7 @@
 99	209	6935015146796368	CMakeFiles/untitled.dir/lab7_8/lab7.c.obj	4ae45695ca19f82
 120	230	6935015147017557	CMakeFiles/untitled.dir/lab7_8/lab8.c.obj	217be612256aef6a
 9	621	6935046834696489	CMakeFiles/untitled.dir/lab9_10/lab9.c.obj	187e6df9ea5fb29d
-2	84	6935056543268477	CMakeFiles/untitled.dir/lab9_10/lab10.c.obj	4543bad606711772
-2	90	6935061187860634	CMakeFiles/untitled.dir/main.c.obj	54cc0f587be06851
 9	91	6935061187890626	CMakeFiles/untitled.dir/lab9_10/lab10.c.obj	4543bad606711772
-16	96	6935061187936339	CMakeFiles/untitled.dir/lab11_12/lab11.c.obj	b058ea4a14717d71
-96	202	6935061188973173	untitled.exe	d1043d2b7ded524e
-2	88	6935061551597631	CMakeFiles/untitled.dir/main.c.obj	54cc0f587be06851
-10	97	6935061551801067	CMakeFiles/untitled.dir/lab11_12/lab11.c.obj	b058ea4a14717d71
-98	204	6935061552888438	untitled.exe	d1043d2b7ded524e
+2	68	6935066569208862	CMakeFiles/untitled.dir/main.c.obj	54cc0f587be06851
+9	78	6935066569311332	CMakeFiles/untitled.dir/lab11_12/lab12.c.obj	9032379081d68f40
+79	189	6935066570396176	untitled.exe	d31a77302de6f711

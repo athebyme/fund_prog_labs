@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "lab11_12/lab12.h"
-#include <windows.h>
-int main(int argc, char** argv) {
-    SetConsoleOutputCP(CP_UTF8);
+#include "lab12.h"
+int lab12(int argc, char** argv){
+    // lab 12
+
     if (argc < 2) {
         printf("Usage: %s filename\n", argv[0]);
         return 1;
