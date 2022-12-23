@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "lab56/lab5.h"
-#include "lab56/lab6.h"
+#include "lab78/lab8.h"
 int main() {
-    lab6();
+    lab8_e();
     return 0;
 }
