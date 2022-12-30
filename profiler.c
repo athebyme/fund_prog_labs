@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "profiler.h"
 int recursive_fib(int n)
 {
     if (n <= 2) return n;
@@ -21,10 +22,3 @@ int iter_fib(int n){
     return 0;
 }
 
-int main(int argc, char** argv){
-    int n;
-    scanf("%d", &n);
-    recurse_test(n - 2);
-    iter_fib(n - 2);
-    return 0;
-}

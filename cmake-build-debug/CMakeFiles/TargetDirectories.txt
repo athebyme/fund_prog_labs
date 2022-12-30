@@ -1,3 +1,3 @@
-C:/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug/CMakeFiles/untitled.dir
+/mnt/c/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

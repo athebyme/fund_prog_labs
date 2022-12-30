@@ -4,7 +4,6 @@
 #include <math.h>
 #include <stdint.h>
 
-typedef struct u_int8_t u_int8_t;
 enum Weekday{
     January = 1,
     February = 2,

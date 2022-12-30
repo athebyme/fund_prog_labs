@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\Anton\CLionProjects\Fund_prog_C -B C:\Users\Anton\CLionProjects\Fund_prog_C\cmake-build-debug
+C:\Windows\system32\wsl.exe --distribution Debian --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/Anton/CLionProjects/Fund_prog_C -B /mnt/c/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug
+-- Build files have been written to: /mnt/c/Users/Anton/CLionProjects/Fund_prog_C/cmake-build-debug

@@ -2,7 +2,6 @@
 #include <malloc.h>
 #include <string.h>
 #include <locale.h>
-#include <windows.h>
 #include "lab9.h"
 
 int lab9_a(){
